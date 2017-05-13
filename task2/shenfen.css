@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #29BDE0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 5rem;
+  font-size: 2rem;
+  color: white;
+  background: #29BDE0;
+  box-sizing: padding-box;
+  border-bottom: 2px solid white;
+}
+.header button {
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  padding: 2rem;
+}
+
+.header img {
+  width: 3rem;
+  height: 3rem;
+  padding-top: 1rem;
+}
+
+.line{
+  margin: 3rem auto;
+  width: 50%;
+  height: 50rem;
+  border: 2px solid white;
+  background: #FBEDCB;
+}
+.line1{
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background: white;
+  margin: 0 auto;
+  line-height: 5rem;
+  font-size: 1.5rem;
+  color: orange;
+  text-align: center;
+  position: relative;
+  bottom: 2.5rem;
+}
+.line2{
+  padding-top: 8rem;
+  text-align: center;
+}
+.line2 img{
+  width: 15rem;
+  height: 15rem;
+}
+.line3{
+  display: none;
+  margin: 0 auto;
+}
+.line5{
+  margin: 0 auto;
+}
+.line4{
+  margin-top: 3rem;
+  font-size: 1.9rem;
+  visibility: hidden;
+}
+.foot{
+  width: 40%;
+  margin: 0 30%;
+  height: 5rem;
+  background: orange;
+  font-size: 2rem;
+  color: white;
+  outline: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/

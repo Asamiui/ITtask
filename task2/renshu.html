@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>人数设置</title>
+  <link rel="stylesheet" href="renshu.css">
+</head>
+<body>
+  <header>
+      <div class="header">
+          <button><img src="./images/1.png" alt="" ></button>
+          <p>玩家分配</p>
+          <button><img src="./images/4.png" alt="" ></button>
+      </div>
+  </header>
+  <main>
+    <div class="line1">
+      <p id="killnum">杀手&emsp;&emsp;人</p>
+      <p id="peoplenum">水民&emsp;&emsp;人</p>
+    </div>
+    <div class="line2">
+      <span>请输入玩家数量</span>
+      <form action=""><input id="num" type="text" onchange="changeNum()" value=""></form>
+      <span>玩家数量为4-18人</span>
+    </div>
+  </main>
+  <footer>
+    <input class="foot" type="button" id="footid"  value="发牌" ></input>
+  </footer>
+  <script src="renshu.js">
+  </script>
+</body>
+</html>
