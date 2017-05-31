@@ -19,7 +19,7 @@ body {
   color: white;
   background: #29BDE0;
   box-sizing: padding-box;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid  white;
 }
 .header button {
   border: none;
@@ -83,7 +83,6 @@ body {
   font-size: 2rem;
   color: white;
   outline: none;
-
 }
 
 

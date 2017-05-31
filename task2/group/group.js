@@ -5,7 +5,7 @@ function changeNum() {
   num = Number(zong);
   console.log(num)
   //限定游戏人数
-  if( num >= 4 && num <= 18 )
+  if( num >= 6 && num <= 18 )
   {
     killnum = Math.ceil(num/4);
     console.log(killnum)
@@ -23,8 +23,7 @@ function changeNum() {
   p.innerHTML = "水民&emsp;" + peoplenum + "&emsp;人";
   }
 
-
-//将杀手和水民设为数组(点击事件)
+//将杀手和水民设为数组(点击)
  var footzz = document.getElementById("footid")
  footzz.onclick = function () {
  if(killnum > 0)
@@ -43,8 +42,6 @@ function changeNum() {
   }
    //水民+杀手数组组合
   zonglist = pelist.concat(kilist);
-   //数组乱序
-   //数组乱序// zonglistL=zonglist.sort(function(){ return 0.5 - Math.random() }); //数组乱序方法1
   zonglistL = []
   for(i = 0 , z = zonglist.length ; i < z ; i++)
   {var j = Math.floor(Math.random()*zonglist.length);
@@ -54,10 +51,12 @@ function changeNum() {
  console.log(zonglistL);
  //页面传参
  sessionStorage.setItem("List",JSON.stringify(zonglistL));
- window.open('shenfen.html');
+ sessionStorage.setItem("killNUM",kilist.length);
+ sessionStorage.setItem("peNUM",pelist.length);
+ sessionStorage.setItem("KILLNUM",kilist.length);
+ sessionStorage.setItem("PENUM",pelist.length);
+ window.location.href = '../view/view.html';
  }
-
-
 
 
 

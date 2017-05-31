@@ -42,9 +42,9 @@ display: flex;
 flex-wrap: wrap;
 }
 
-.big div{
+.small{
   position: relative;
-  background-color: orange;
+  background-color: #95E1D3;
   border: 2px solid white;
   margin:2vw;
   height: 25vw;
@@ -53,15 +53,22 @@ flex-wrap: wrap;
   text-align: center;
   line-height: 17vw;
 }
-
-.big div p{
+.knife{
+  position: absolute;
+  bottom: -2.5rem;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  display: none;
+}
+.big p{
   position: absolute;
   bottom: 0rem;
   width: 100%;
   height: 10vw;
   font-size: 2rem;
   color: white;
-  background: green;
+  background: #364F6B;
   height: auto;
   line-height: 8vw;
 }
@@ -71,15 +78,20 @@ flex-wrap: wrap;
 }
 
 .foot{
+  border: 1px solid white;
+  border-radius: 2.5rem;
+  outline: none;
+  cursor: pointer;
   width: 20%;
-  margin: 0 40%;;
+  margin: 0 40%;
   height: 5rem;
-  background: orange;
-  opacity: 0.8;
-
+  background: #C7F5FE;
   font-size: 2rem;
-  color: white;
   outline: none;
   position: fixed;
   bottom: 2rem;
+}
+.foot:hover{
+  background: #2F1B41;
+  color: white;
 }

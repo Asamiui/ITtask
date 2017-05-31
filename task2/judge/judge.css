@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #29BDE0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 5rem;
+  font-size: 2rem;
+  color: white;
+  background: #29BDE0;
+  box-sizing: padding-box;
+  border-bottom: 2px solid white;
+}
+.header button {
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  padding: 2rem;
+}
+
+.header img {
+  width: 3rem;
+  height: 3rem;
+  padding-top: 1rem;
+}
+.big{
+width: 90vw;
+margin: 2rem auto;
+border: 1px solid white;
+display: flex;
+flex-wrap: wrap;
+}
+
+.small{
+  position: relative;
+  background-color: #95E1D3;
+  border: 2px solid white;
+  margin:2vw;
+  height: 25vw;
+  width: 25vw;
+  font-size: 1.8rem;
+  text-align: center;
+  line-height: 17vw;
+}
+
+.big div p{
+  position: absolute;
+  bottom: 0rem;
+  width: 100%;
+  height: 10vw;
+  font-size: 2rem;
+  color: white;
+  background: #364F6B;
+  height: auto;
+  line-height: 8vw;
+}
+.put{
+  height: 17rem;
+  width: 100%;
+}
+
+.foot{
+  border: 1px solid white;
+  border-radius: 2.5rem;
+  outline: none;
+  cursor: pointer;
+  width: 20%;
+  margin: 0 40%;
+  height: 5rem;
+  background: #C7F5FE;
+  font-size: 2rem;
+  outline: none;
+  position: fixed;
+  bottom: 2rem;
+}
+.foot:hover{
+  background: #2F1B41;
+  color: white;
+}

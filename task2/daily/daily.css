@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #F0F0F0
+}
+main{
+  height: auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 5rem;
+  font-size: 2rem;
+  color: white;
+  background: #29BDE0;
+}
+.header button {
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  padding: 2rem;
+}
+
+.header img {
+  width: 3rem;
+  height: 3rem;
+  padding-top: 1rem;
+}
+
+#day{
+  width: 100%;
+  background: white;
+  font-size: 1.5rem;
+  color: gray;
+  text-align: center;
+  height: 5rem;
+  line-height: 5rem;
+  margin: 2rem auto;
+}
+.Num{
+  width: 100%;
+  background: white;
+  font-size: 1.5rem;
+  color: gray;
+  height: 5rem;
+  cursor: pointer;
+}
+/*.Num:hover +.Res{
+  display: block;
+}*/
+.Res{
+  width: 40%;
+  margin: 0 auto;
+  background: #55E9BC;
+  font-size: 1.5rem;
+  height: auto;
+  color: #52616B;
+  display: none;
+}
+.resultword{
+  display: block;
+  background: white;
+  text-align: center;
+  font-size: 1.4rem;
+  color:#F33535;
+}
+.choose{
+  display: block;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #29BDE0;
+  font-size: 1.5rem;
+  color: white;
+  width: 40%;
+  margin: 2rem auto;
+  height: auto;
+  line-height: 4rem;
+}
+
+.foot{
+  position: fixed;
+  bottom: 2rem;
+  width: 100%;
+  text-align: center;
+  opacity: 0.9;
+}
+ .put{
+  width: 100%;
+  height: 10rem;
+}
+.foot input{
+  height: 5rem;
+  width: 10vw;
+  line-height: 5rem;
+  border-radius: 2.5rem;
+  border: 1px solid #29BDE0;
+  outline: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  background: white;
+  margin: 0 4rem;
+}
+.foot input:hover{
+  background: #29BDE0;
+  color: white;
+}

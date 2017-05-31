@@ -1,5 +1,4 @@
 var clickCD = document.getElementById("clickCD"),
-    // clickCD2 = document.getElementById("clickCD2")
     fanpai = document.getElementById("fanpai"),
     jieguo = document.getElementById("jieguo"),
     jieguoW = document.getElementById("jieguoW"),
@@ -24,14 +23,14 @@ clickCD.onclick = function () {
         topNum.innerHTML = (List.length);
         jieguoW.innerHTML = List.pop();
         jieguoW.style.visibility = "visible" ;
-        window.open('faguan.html')
+        window.location.href = '../judge/judge.html';
       }
       else if (x % 2 == 0 )
       {
         fanpai.style.display = "none";
         jieguo.style.display = "block";
         jieguoW.style.visibility = "visible" ;
-        jieguoW.innerHTML = List[x/2];
+        jieguoW.innerHTML = List[x/2 - 1];
         clickCD.value = "隐藏并查看" + (y) + "号身份";
         topNum.innerHTML = (y-1);
       }
